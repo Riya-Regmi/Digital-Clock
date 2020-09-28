@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+    text-align: center;
+    color:goldenrod;
+    font-size: 50px;
+    letter-spacing:3px;
+    word-spacing: 1px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight:bold;
+}
+
+div{
+    text-align: center;
+}
+
+
+.boxsize{
+    border:10px solid darkblue;
+    box-shadow:30px solid darkblue;
+    width:50%;
+    height:35%;
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 150px;
+    background-color:whitesmoke;
+}
+
+.boxsize:hover{
+    background-color:darkgreen;
+    border-color: darkgreen;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+button{
+    background-color:lightblue;
+    padding:20px 24px;
+    color:black;
+    border-color:lightblue;
+    border-radius:20px;
+    font-size: 20px;
+    margin:10% auto;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    
+
+
+}
+
+#datedisplay{
+    color:red;
+    font-size:20px;
+    margin:20px auto;
+}
+
+#time{
+    color:navy;
+    font-size: 60px;
+    margin:30px auto;
+    letter-spacing: 1px;
+}
+
+#time:hover{
+    color:black;
+}
+
+#day,#date{
+    font-size: 20px;
+    margin:20px auto;
+    color:black;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+#day:hover,#date:hover{
+    color:whitesmoke;
+}
+
+
+
